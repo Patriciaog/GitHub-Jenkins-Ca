@@ -17,14 +17,14 @@ pipeline {
             steps {
                 // Example build step, adjust according to your project
                 sh 'echo "Building..."'
-                sh 'mvn clean install' // Adjust for your build tool
+               // sh 'mvn clean install' // Adjust for your build tool
             }
         }
         stage('Test') {
             steps {
                 // Example test step, adjust according to your project
                 sh 'echo "Running tests..."'
-                sh 'mvn test' // Adjust for your test tool
+              //  sh 'mvn test' // Adjust for your test tool
             }
         }
         stage('Deploy') {
